@@ -1,17 +1,21 @@
 #include <iostream>
+
 #include <cmath>
 
 using namespace std;
 
 
-
-int main()
+bool f( int a)
 
 {
+return a>20 && a%2==0 ;
 
-int a=58;
 
-return a>20 && a%2==0;
+}
+int main()
+{
+
+cout<< f(87);
 
 return 0;
 
